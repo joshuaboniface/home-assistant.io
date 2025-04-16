@@ -55,10 +55,12 @@ The following device classes are supported for binary sensors:
 - **None**: Generic on/off. This is the default and doesn't need to be set.
 - **battery**: `on` means low, `off` means normal
 - **battery_charging**: `on` means charging, `off` means not charging
+- **boolean**: `on` means true, `off` means false
 - **carbon_monoxide**: `on` means carbon monoxide detected, `off` no carbon monoxide (clear)
 - **cold**: `on` means cold, `off` means normal
 - **connectivity**: `on` means connected, `off` means disconnected
 - **door**: `on` means open, `off` means closed
+- **door_inverted**: `on` means closed, `off` means open
 - **garage_door**: `on` means open, `off` means closed
 - **gas**: `on` means gas detected, `off` means no gas (clear)
 - **heat**: `on` means hot, `off` means normal
@@ -81,5 +83,6 @@ The following device classes are supported for binary sensors:
 - **update**: `on` means update available, `off` means up-to-date
 - **vibration**: `on` means vibration detected, `off` means no vibration (clear)
 - **window**: `on` means open, `off` means closed
+- **yesno**: `on` means yes, `off` means no
 
 For comparison, here are the [device classes](https://www.home-assistant.io/integrations/sensor#device-class) for analog sensors.
